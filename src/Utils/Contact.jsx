@@ -6,7 +6,7 @@ export const contact = [
         id: 1,
         icon: <BsFileEarmarkPersonFill size={'30'} />,
         text: 'Resume',
-        href: 'https://drive.google.com/uc?export=download&id=18-LWadY4QWj5GKx9Mgg8FWSqaB4YeDUO'
+        href: 'https://drive.google.com/uc?export=download&id=181w2bVVvtgaFITjYH4g7-vsouaAbrV9x'
     },
     {
         id: 2,
