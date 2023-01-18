@@ -1,7 +1,6 @@
 import { BsFileEarmarkPersonFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
-
 export const contact = [
     {
         id: 1,
