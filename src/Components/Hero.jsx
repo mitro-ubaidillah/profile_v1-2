@@ -42,7 +42,7 @@ const Hero = () => {
                     lineHeight={'8'}
                 >
                     I'am from Indonesia and I have been working as a Front End Engineer.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                    Proficient in HTML, CSS, Javascript, and modern libraries such as TailwindCSS/Bootstrap and React/Next JS.
                 </Text>
                 <ButtonGroup
                     mt={'5'}
