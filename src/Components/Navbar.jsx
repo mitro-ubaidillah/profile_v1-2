@@ -68,7 +68,6 @@ const Navbar = () => {
                     _hover={{ color: 'primary.light' }}
                 >
                     <Text
-                        as={'a'}
                         cursor={'pointer'}
                     >
                         Tech Stack
@@ -82,7 +81,6 @@ const Navbar = () => {
 
                 >
                     <Text
-                        as={'a'}
                         cursor={'pointer'}
                     >
                         Projects
@@ -95,7 +93,6 @@ const Navbar = () => {
                     _hover={{ color: 'primary.light' }}
                 >
                     <Text
-                        as={'a'}
                         cursor={'pointer'}
                     >
                         Contact Me
