@@ -62,7 +62,7 @@ const Hero = () => {
                         _hover={{ bg: 'transparent', borderColor: 'font.optional', border: '1px' }}
                         fontWeight={'500'}
                         target={'_blank'}
-                        href='https://drive.google.com/uc?export=download&id=18-LWadY4QWj5GKx9Mgg8FWSqaB4YeDUO'
+                        href='https://drive.google.com/uc?export=download&id=181w2bVVvtgaFITjYH4g7-vsouaAbrV9x'
                         px={'15px'}
                         py={'4px'}
                         borderRadius={'md'}
