@@ -6,6 +6,8 @@ import Footer from '../Components/Footer';
 import CardTech from '../Components/CardTech';
 import DividerTitle from '../Components/DividerTitle';
 import { tech } from '../Utils/Tech';
+import { dataProject } from '../Utils/Projects';
+import CardProject from '../Components/CardProject';
 
 const Home = () => {
     return (
@@ -14,7 +16,6 @@ const Home = () => {
         >
             <Navbar />
             <Hero />
-            <Footer />
             <Box
                 px={{ base: '10', lg: '20' }}
                 pb={'20'}
@@ -44,6 +45,34 @@ const Home = () => {
                     }
                 </Grid>
             </Box>
+            <Box
+                px={'20'}
+                pb={'20'}
+            >
+                <Text
+                    fontSize={'36px'}
+                    color={'font.optional'}
+                    fontWeight={'500'}
+                    id='projects'
+                >
+                    Projects Personal
+                </Text>
+                <DividerTitle />
+                <Grid
+                    templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)' }}
+                    gap={'10'}
+                >
+                    {
+                        dataProject.map(data => (
+                            <CardProject
+                                {...data}
+                                key={data.id}
+                            />
+                        ))
+                    }
+                </Grid>
+            </Box>
+            <Footer />
         </Box>
     );
 }
